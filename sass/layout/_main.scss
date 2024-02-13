@@ -1,0 +1,458 @@
+.main-container {
+  background: rgb(235, 235, 235);
+}
+.hero-orab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 950px) {
+  .hero-orab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+  }
+  .her-birinchi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.hero-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 11px;
+}
+.hero-dack {
+  width: 450px;
+  margin-bottom: 30px;
+}
+.hero-border {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #fff;
+  width: 370px;
+  padding: 15px 25px;
+}
+.hero-ikkinchi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-img {
+  width: 340px;
+}
+.ikkinchi-dack {
+  width: 320px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+// =================
+.ikkiinchi-container {
+  background: rgb(211, 211, 211);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.imglar {
+  display: flex;
+  gap: 67px;
+  .ikkinchi-img {
+    width: 41px;
+  }
+  .ikkinchi-img1 {
+    width: 92px;
+  }
+  .ikkinchi-img2 {
+    width: 34px;
+  }
+  .ikkinchi-img3 {
+    width: 117px;
+  }
+  .ikkinchi-img4 {
+    width: 132px;
+  }
+  .ikkinchi-img5 {
+    width: 89px;
+  }
+  .ikkinchi-img6 {
+    width: 46px;
+  }
+  .ikkinchi-img7 {
+    width: 113px;
+  }
+}
+@media (max-width: 1185px) {
+  .imglar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+// ====================
+.uchinchi-orab {
+  display: flex;
+  gap: 180px;
+  align-items: center;
+}
+
+.uchinchi-birinchi1 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.birinchi1-title {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.birinchi1-dack {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 510px;
+}
+.images-dack1 {
+  color: rgb(119, 119, 119);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: -50px;
+}
+@media (max-width: 1170px) {
+  .uchinchi-orab {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .uchinchi-ikkinchi {
+    margin-top: -150px;
+  }
+  .uchinchi-birinchi1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .birinchi1-dack {
+      text-align: center;
+    }
+  }
+}
+// ==============
+.tortinvhi-container {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+@media (max-width: 1170px) {
+  .tortinvhi-container {
+    flex-direction: column;
+    .tortinchi-pasi {
+      margin-top: -150px;
+    }
+    .pasi-title {
+      text-align: center;
+    }
+    .pasi-dack {
+      text-align: center;
+    }
+  }
+}
+.tortinchi-tepa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span {
+  border: 1px solid #1d8ff3;
+  border-radius: 10px;
+  padding: 4px 1px;
+  background-color: #1d8ff3;
+  margin-inline: 5px;
+}
+.img-dack2 {
+  color: rgb(119, 119, 119);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: -45px;
+}
+.tortinchi-pasi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.pasi-title {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.pasi-dack {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 520px;
+}
+// ====================
+.pas-container {
+  background: rgb(235, 235, 235);
+  padding-bottom: 80px;
+  padding-top: 90px;
+}
+@media (max-width: 1240px) {
+  .pas-ikkinchi7 {
+    margin-top: 50px;
+
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.pas-birinchi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pas-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 11px;
+}
+.pas-dack {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.rasm-dack3 {
+  color: rgb(119, 119, 119);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 20px;
+  text-align: center;
+  margin-top: -50px;
+}
+// =================
+
+.pas-ikkinchi7 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ikkinchi-orab {
+  border: 1px solid rgb(255, 255, 255);
+  width: 370px;
+  background-color: #fff;
+  border-radius: 11px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.ikkinchi7-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 31px;
+}
+.ikkinchi7-dack {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 40px;
+}
+.pas-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+// ==============
+.pasi-container {
+  margin-top: 99px;
+}
+.pasi-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 41px;
+}
+.birinchi7 {
+  border: 1px solid #ffffff;
+  width: 3000px;
+}
+.orab {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1175px) {
+  .orab {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .pasi-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: -100px;
+  }
+  .birinchi7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.birinvhi7-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 13px;
+  margin-top: 30px;
+}
+.birinchi7-dack {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 245px;
+}
+.img1 {
+  margin-left: -30px;
+  margin-top: -30px;
+  width: 240px;
+}
+.img2 {
+  width: 240px;
+}
+.birinchi8-dack {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 245px;
+}
+.birinchi8-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 13px;
+  margin-top: -30px;
+}
+.birinchi9-dack {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 245px;
+}
+.birinchi9-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 13px;
+  margin-top: -30px;
+}
+.birinchi10-dack {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 245px;
+  // margin-top: -50px;
+}
+.birinchi10-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 13px;
+  margin-top: -30px;
+}
