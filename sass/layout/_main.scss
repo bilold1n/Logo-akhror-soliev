@@ -33,6 +33,7 @@
     width: 100%;
     max-width: 300px;
     font-weight: 100;
+    font-size: 10px;
   }
 }
 
@@ -279,193 +280,193 @@ span {
   .birinchi1-dack {
     width: 300px;
   }
-  .pas-title {
-    color: rgb(51, 51, 51);
-    font-family: Roboto;
-    font-size: 31px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 11px;
-  }
-  .pas-dack {
-    color: rgb(51, 51, 51);
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 40px;
-  }
-  .rasm-dack3 {
-    color: rgb(119, 119, 119);
-    font-family: Roboto;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-top: 20px;
-    text-align: center;
-    margin-top: -50px;
-  }
-  // =================
+}
+.pas-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 11px;
+}
+.pas-dack {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.rasm-dack3 {
+  color: rgb(119, 119, 119);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 20px;
+  text-align: center;
+  margin-top: -50px;
+}
+// =================
 
-  .pas-ikkinchi7 {
-    display: flex;
-    justify-content: space-between;
-  }
+.pas-ikkinchi7 {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .ikkinchi-orab {
-    border: 1px solid rgb(255, 255, 255);
-    width: 370px;
-    background-color: #fff;
-    border-radius: 11px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-  }
-  .ikkinchi7-title {
-    color: rgb(51, 51, 51);
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-bottom: 31px;
-  }
-  .ikkinchi7-dack {
-    font-family: Roboto;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-top: 40px;
-  }
-  .pas-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  // ==============
-  .pasi-container {
-    margin-top: 99px;
-  }
-  .pasi-title {
-    color: rgb(51, 51, 51);
-    font-family: Roboto;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 41px;
-  }
-  .birinchi7 {
-    border: 1px solid #ffffff;
-    width: 3000px;
-  }
-  .orab {
-    display: flex;
-    justify-content: space-between;
-  }
+.ikkinchi-orab {
+  border: 1px solid rgb(255, 255, 255);
+  width: 370px;
+  background-color: #fff;
+  border-radius: 11px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.ikkinchi7-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 31px;
+}
+.ikkinchi7-dack {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 40px;
+}
+.pas-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+// ==============
+.pasi-container {
+  margin-top: 99px;
+}
+.pasi-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 41px;
+}
+.birinchi7 {
+  border: 1px solid #ffffff;
+  width: 3000px;
+}
+.orab {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .birinvhi7-title {
-    color: rgb(51, 51, 51);
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 13px;
-    margin-top: 30px;
-  }
-  .birinchi7-dack {
-    color: rgb(51, 51, 51);
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    width: 245px;
-  }
-  .img1 {
-    margin-left: -30px;
-    margin-top: -30px;
-    width: 240px;
-  }
-  .img2 {
-    width: 240px;
-  }
-  .birinchi8-dack {
-    color: rgb(51, 51, 51);
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    width: 245px;
-  }
-  .birinchi8-title {
-    color: rgb(51, 51, 51);
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 13px;
-    margin-top: -30px;
-  }
-  .birinchi9-dack {
-    color: rgb(51, 51, 51);
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    width: 245px;
-  }
-  .birinchi9-title {
-    color: rgb(51, 51, 51);
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 13px;
-    margin-top: -30px;
-  }
-  .birinchi10-dack {
-    color: rgb(51, 51, 51);
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    width: 245px;
-    // margin-top: -50px;
-  }
-  .birinchi10-title {
-    color: rgb(51, 51, 51);
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 13px;
-    margin-top: -30px;
-  }
+.birinvhi7-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 13px;
+  margin-top: 30px;
+}
+.birinchi7-dack {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 245px;
+}
+.img1 {
+  margin-left: -30px;
+  margin-top: -30px;
+  width: 240px;
+}
+.img2 {
+  width: 240px;
+}
+.birinchi8-dack {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 245px;
+}
+.birinchi8-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 13px;
+  margin-top: -30px;
+}
+.birinchi9-dack {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 245px;
+}
+.birinchi9-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 13px;
+  margin-top: -30px;
+}
+.birinchi10-dack {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 245px;
+  // margin-top: -50px;
+}
+.birinchi10-title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 13px;
+  margin-top: -30px;
 }
 @media (max-width: 1175px) {
   .orab {
