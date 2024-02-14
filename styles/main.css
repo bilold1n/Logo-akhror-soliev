@@ -464,6 +464,9 @@ footer {
   }
   .hero-border {
     margin-left: -50px;
+    width: 100%;
+    max-width: 300px;
+    font-weight: 100;
   }
 }
 .hero-title {
